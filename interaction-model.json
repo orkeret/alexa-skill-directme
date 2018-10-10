@@ -1,0 +1,61 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "directme",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SetSourceAddressIntent",
+                    "slots": [
+                        {
+                            "name": "address",
+                            "type": "AMAZON.StreetAddress"
+                        }
+                    ],
+                    "samples": [
+                        "Set default source to {address}"
+                    ]
+                },
+                {
+                    "name": "SetDestinationAddressIntent",
+                    "slots": [
+                        {
+                            "name": "address",
+                            "type": "AMAZON.StreetAddress"
+                        }
+                    ],
+                    "samples": [
+                        "Set default destination to {address}"
+                    ]
+                },
+                {
+                    "name": "DefaultRouteDirectionsIntent",
+                    "slots": [],
+                    "samples": [
+                        "what are my directions"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
